@@ -1,0 +1,141 @@
+<style>
+/* Basic navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.maina-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}
+
+.navbar.sticky {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.maina {
+  color: #05ff58 !important;
+  font-size: 1.2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar li {
+  margin-right: 2rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+/* Hamburger menu styles */
+.menu-toggle {
+  margin-top: 12px;
+  margin-right: 8px;
+  display: none;
+  width: 50px; /* Add a width */
+  height: 50px; /* Add a height */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar ul.show {
+    display: block;
+  }
+  .navbar li {
+    margin-right: 0;
+    padding: 0.5rem 0;
+  }
+  .navbar a {
+    display: block;
+    padding: 0.5rem 0;
+  }
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+</style>
+
+<nav class="navbar">
+  <p class="maina-wrapper"><a class="maina" href="https://botanybase.github.io/">BotanyBase</a></p>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </div>
+  <ul class="xyz-in" xyz="fade flip-down stagger duration-7 delay-3 ease-out-back">
+    <li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/about">About</a></li>
+    <li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/identify">Identify</a></li>
+    <li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/learn/">Learn</a></li>
+    <!--<li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/blog">Blog</a></li>-->
+    <!--<li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/forum">Forums</a></li>-->
+    <li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/identify/full">Database</a></li>
+    <li class="square xyz-in" xyz="fade down flip-down-50%"><a href="https://botanybase.github.io/docs">Docs</a></li>
+    <li class="square xyz-in" xyz="fade down flip-up-50%"><a href="https://botanybase.github.io/contribute/add" class="button">Contribute</a></li>
+    <li id="auth0" class="square xyz-in" xyz="fade down flip-up-50%"><a href="https://botanybase.github.io/auth" class="button">Sign-up/Login</a></li>
+    <li style="display: none;" id="auth1" class="square xyz-in" xyz="fade down flip-up-50%"><a href="https://botanybase.github.io/auth/dashboard" class="button">Dashboard</a></li>
+  </ul>
+</nav>
+
+<!-- <div class="square xyz-in" xyz="fade down flip-up-50%"></div> -->
+
+<script>
+function toggleMenu() {
+  var navbar = document.querySelector('.navbar');
+  var menuToggle = document.querySelector('.menu-toggle');
+  var navMenu = document.querySelector('.navbar ul');
+  navMenu.classList.toggle('show');
+  if (navMenu.classList.contains('show')) {
+    menuToggle.innerHTML = '<i class="fa fa-times"></i>'; 
+  } else {
+    menuToggle.innerHTML = '<i class="fa fa-bars"></i>'; 
+  }
+}
+
+if (authStatus == 1) {
+  document.getElementById("auth0").style.display = "none";
+  document.getElementById("auth1").style.display = "block";
+} else {
+ document.getElementById("auth1").style.display = "none";
+ document.getElementById("auth0").style.display = "block"; 
+}
+</script>
