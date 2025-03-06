@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
+html {
+  margin-top: 4em;
+  background-color: #303030;
+  overflow-x: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.bannerbg {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #313131;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
+}
+
+.bg {
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 2px #000000 solid;
+    background-color: #1e421d;
+    color: #ffffff;
+    width: 80%;
+    height: auto;
+    padding: 8px;
+}
+
+.lightbg {
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 2px #000000 solid;
+    background-color: #81a67c;
+    color: #ffffff;
+    width: 80%;
+    height: auto;
+    padding: 8px;
+}
+
+body {
+  --sb-track-color: #f1f1f1;
+  --sb-thumb-color: #005c18;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+p {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #49c453;
+}
+
+a {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #baffc0;
+}
+
+span {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #baffc0;
+}
+
+h1 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #d2ebd1;
+}
+
+h2 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #d2ebd1;
+}
+
+h3 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #d2ebd1;
+}
+
+h4 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #d2ebd1;
+}
+
+li {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #49c453;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #8BC34A; /* light green */
+  animation: hrmove 5s linear infinite;
+}
+
+@keyframes hrmove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}  
+  
+.navbar.sticky {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow when sticky */
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin-right: 2rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.button {
+  background-color: #34C759; /* White-ish background */
+  color: #f7f7f7; /* Green text color */
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center the button */
+  max-width: 200px; /* Add a max width to ensure centering works */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #ffffff; /* Green background on hover */
+  color: #34C759; /* White text on hover */
+}
+
+.button2 {
+  background-color: #ffffff; /* White-ish background */
+  color: #34C759; /* Green text color */
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center the button */
+  max-width: 200px; /* Add a max width to ensure centering works */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #34C759; /* Green background on hover */
+  color: #ffffff; /* White text on hover */
+}
