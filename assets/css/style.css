@@ -81,6 +81,7 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #49c453;
+  padding: 8px;
 }
 
 a {
@@ -88,6 +89,7 @@ a {
   font-weight: 800;
   font-style: normal;
   color: #baffc0;
+  padding: 8px;
 }
 
 span {
@@ -95,6 +97,7 @@ span {
   font-weight: 800;
   font-style: normal;
   color: #baffc0;
+  padding: 8px;
 }
 
 h1 {
@@ -102,6 +105,7 @@ h1 {
   font-weight: 900;
   font-style: normal;
   color: #d2ebd1;
+  padding: 12px;
 }
 
 h2 {
@@ -109,6 +113,7 @@ h2 {
   font-weight: 900;
   font-style: normal;
   color: #d2ebd1;
+  padding: 12px;
 }
 
 h3 {
@@ -116,6 +121,7 @@ h3 {
   font-weight: 900;
   font-style: normal;
   color: #d2ebd1;
+  padding: 12px;
 }
 
 h4 {
@@ -123,6 +129,7 @@ h4 {
   font-weight: 900;
   font-style: normal;
   color: #d2ebd1;
+  padding: 12px;
 }
 
 li {
@@ -130,6 +137,7 @@ li {
   font-weight: 800;
   font-style: normal;
   color: #49c453;
+  padding: 8px;
 }
 
 hr {
