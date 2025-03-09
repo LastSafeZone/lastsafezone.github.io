@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<style>
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 5px;
+}
+</style>
+
 <div id="about" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/WebAssetBG3.PNG'); background-repeat: no-repeat; background-position: center; background-size: cover; height: auto;">
   <h1>Last Safe Zone Wiki</h1>
   <p>Official LSZ Wiki, contains everything you need to know about the game.</p>
@@ -11,6 +21,7 @@ layout: default
 
 <hr>
 
+<div class="parent">
 <div class="container">
   <h4>Maps</h4>
   <p>Articles on Map data and lore.</p>
@@ -45,4 +56,5 @@ layout: default
   <h4>Loot and Loot Containers</h4>
   <p>Catalougue of Loot and various Containers.</p>
   <a href="/wiki/loot">Continue</a>
+</div>
 </div>
