@@ -42,4 +42,13 @@ Possible enemy encounters:
 - Riot Control (Guaranteed)
 - Riot Elite (Guaranteed)
 - Port Guard (Guaranteed)
-- 
+- Milita Grunt (Guaranteed)
+- Milita Marksman (Guaranteed)
+- UN Rebel (Chance)
+
+Possible boss encounters:
+- Darwin (4%)
+- Savage (1.82%)
+- Knight (4%)
+
+## Woods
