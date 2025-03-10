@@ -34,3 +34,12 @@ Possible boss encounters:
 ## Urban
 "A serene seaside city before it all happened. A port officer and his men seized control during the chaos."
 
+The second map, with a more close quarter stage layout. All AI enemies have buffed health and protection values. There are 2 main regions within the map, both of which have a chance of appearing, Port Admin and the Streets.
+
+
+Possible enemy encounters:
+- Civlian Hostile (Guaranteed)
+- Riot Control (Guaranteed)
+- Riot Elite (Guaranteed)
+- Port Guard (Guaranteed)
+- 
