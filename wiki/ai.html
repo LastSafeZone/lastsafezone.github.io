@@ -28,6 +28,25 @@ layout: default
 
 <hr>
 
-<h2>Bosses</h2>
+<h2>Enemy AI Catalogue</h2>
 
-<h2>Other enemy AI</h2>
+<input type="search" id="search-input" placeholder="Search Database">
+<div class="entries-container parent"></div>
+
+
+<script>
+const jsonUrls = [
+  '/data/ai.json'
+  // Add more URLs as needed
+];
+
+var entryHTML = `
+    <div>
+      <h4>${entry.name}</p>
+      <p>${entry.description}</p>
+      <li>${entry.health}</li>
+      <li>${entry.protection}</li>
+      <li>${entry.damage}</li>
+    </div>
+  `;
+</script>
