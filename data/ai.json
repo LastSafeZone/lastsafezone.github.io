@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Milita Guard",
+    "description": "A fresh recruit who recently joined the other locals in defending their land.",
+    "health": "HP: 400",
+    "protection": "Prot: 45",
+    "damage": "Dmg: 15, Acc: 90"
+  },
+  {
+    "name": "Milita Grunt",
+    "description": "Once a guard gains enough time on the battlefield, they are given a better rifle and a fancier helmet.",
+    "health": "HP: 500",
+    "protection": "Prot: 50",
+    "damage": "Dmg: 18, Acc: 90"
+  },
+]
