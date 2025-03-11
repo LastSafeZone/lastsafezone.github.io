@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<h1 id="maps">Maps</h1>
+<style>
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+</style>
+
+<h1 id="maps">Maps</h1> 
 <p>Each map has its own vaired length in the form of stage count, most if not all maps have their own unique AI and bosses.</p>
 <p>Maps are unlocked once the player hits a certain XP level, at which they can start a game with that map.
 The map list with their required XP and length are listed below:</p>
@@ -20,20 +30,33 @@ The map list with their required XP and length are listed below:</p>
 <p>&quot;Once a peaceful countryside now a danger zone due to its abundance in food. 
 Hank and his squad patrol the golden fields of the Farm.&quot;</p>
 <p>Fields is the first map you unlock, also being the easiest to survive on paper. It does not have any unique AI besides the Boss, Hank and his guards.</p>
-<p>Possible enemy encounters:</p>
-<ul>
-<li>Civilian Hostile (Guaranteed)</li>
-<li>Milita Guard (Guaranteed)</li>
-<li>UN Defect (Chance)</li>
-<li>Hank&#39;s Guard (Guaranteed)</li>
-</ul>
-<p>Possible boss encounters:</p>
-<ul>
-<li>Hank (5%)</li>
-<li>Savage (1.67%)</li>
-<li>Hunter (2%)</li>
-<li>Knight (3.33%)</li>
-</ul>
+
+<div class="parent">
+  <p>Possible enemy encounters:</p>
+  <ul>
+    <li>Civilian Hostile (Guaranteed)</li>
+    <li>Milita Guard (Guaranteed)</li>
+    <li>UN Defect (Chance)</li>
+    <li>Hank&#39;s Guard (Guaranteed)</li>
+  </ul>
+  <p>Possible boss encounters:</p>
+  <ul>
+    <li>Hank (5%)</li>
+    <li>Savage (1.67%)</li>
+    <li>Hunter (2%)</li>
+    <li>Knight (3.33%)</li>
+  </ul>
+  <p>Possible loot containers:</p>
+  <ul>
+    <li>Toolbox</li>
+    <li>Drawer</li>
+    <li>Eletronic Safe</li>
+  </ul>
+  <p></p>
+  <ul>
+    <li></li>
+  </ul>
+</div>
 <h2 id="urban">Urban</h2>
 <p>&quot;A serene seaside city before it all happened. A port officer and his men seized control during the chaos.&quot;</p>
 <p>The second map, with a more close quarter stage layout. All AI enemies have buffed health and protection values. There are 2 main regions within the map, both of which have a chance of appearing, Port Admin and the Streets. </p>
