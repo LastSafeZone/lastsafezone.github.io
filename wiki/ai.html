@@ -45,12 +45,14 @@ const jsonUrls = [
 function getEntryHTML(entry) {
   return `
   <div>
-  <h4>${entry.name}</p>
-  <p>${entry.description}</p>
-  <li>${entry.health}</li>
-  <li>${entry.protection}</li>
-  <li>${entry.damage}</li>
+    <h4>${entry.name}</h4>
+    <p>${entry.description}</p>
+    <ul>
+      <li>${entry.health}</li>
+      <li>${entry.protection}</li>
+      <li>${entry.damage}</li>
+    </ul>
   </div>
   `;
-  };
+}
 </script>
