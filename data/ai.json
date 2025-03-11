@@ -12,5 +12,19 @@
     "health": "HP: 500",
     "protection": "Prot: 50",
     "damage": "Dmg: 18, Acc: 90"
+  },
+  {
+    "name": "Milita Marksman",
+    "description": "Some locals showed excellence in marksmanship, gaining them this special role.",
+    "health": "HP: 500",
+    "protection": "Prot: 30",
+    "damage": "Dmg: 40, Acc: 98"
+  },
+  {
+    "name": "Civilian Hostile",
+    "description": "These guys just want to be useful, unfortunately, they aren't good at it.",
+    "health": "HP: 250",
+    "protection": "Prot: 15",
+    "damage": "Dmg: 10, Acc: 90"
   }
 ]
