@@ -22,21 +22,21 @@
   },
   {
     "name": "Milita Marksman",
-    "description": "Some locals showed excellence in marksmanship, gaining them this special role.",
+    "description": "Some locals showed excellence in marksmanship, gaining them this special role. [Has Greater Detection Range]",
     "health": "HP: 500",
     "protection": "Prot: 30",
     "damage": "Dmg: 40, Acc: 98"
   },
   {
     "name": "Riot Police",
-    "description": "One of the men Darwin hired to maintain control over the city, roaming the streets in riot gear.",
+    "description": "One of the men Darwin hired to maintain control over the city, roaming the streets in riot gear. [Has Defense Buff]",
     "health": "HP: 1000",
     "protection": "Prot: 50",
     "damage": "Dmg: 10, Acc: 90" 
   },
   {
     "name": "Riot Police Captain",
-    "description": "A high ranking minion of Darwin's. Commands a group of Riot Guards.",
+    "description": "A high ranking minion of Darwin's. Commands a group of Riot Guards. [Has Defense Buff]",
     "health": "HP: 350",
     "protection": "Prot: 100",
     "damage": "Dmg: 12, Acc: 90"
@@ -56,10 +56,24 @@
     "damage": "Dmg: 18, Acc: 94"
   },
   {
-    "name": "Hazmat",
-    "description": "Grunts taken from the local militas, ",
-    "health": "HP: 800",
-    "protection": "Prot: 35",
-    "damage": "Dmg: 14, Acc: 90"
+    "name": "Hazmat Facility Guard",
+    "description": "Elite units from the United Eastern Front trained specifically to endure the Facility's toxic environment. [Throws Grenades]",
+    "health": "HP: 750",
+    "protection": "Prot: 60",
+    "damage": "Dmg: 18, Acc: 94"
+  },
+  {
+    "name": "Hazmat Facility Elite Guard",
+    "description": "A better equipped variant of the Facility Guard, these guys will throw gas grenades too. [Throws Grenades]",
+    "health": "HP: 1000",
+    "protection": "Prot: 75",
+    "damage": "Dmg: 22, Acc: 97"
+  },
+  {
+    "name": "Hank {BOSS}",
+    "description": "Once was a mechanic back home, now the right-hand man of Ivanov, guarding the Fields.",
+    "health": "HP: 1000",
+    "protection": "Prot: 75",
+    "damage": "Dmg: 22, Acc: 97"
   }
 ]
