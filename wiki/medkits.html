@@ -1,3 +1,55 @@
 ---
 layout: default
 ---
+
+<a href="/wiki">Back</a>
+
+<style>
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 8px;
+  }
+
+  .child {
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 4px;
+  }
+</style>
+
+<h1>Medkits</h1>
+<p>These are used to heal your character. Currently, all medkit have infinite uses but with different heal amounts per heal.</p>
+<p>One heal takes 5 seconds before the medkit takes effect, you will have to HOLD down the heal key to heal properly.</p>
+
+<hr>
+
+<h2>Medkit Catalogue</h2>
+
+<input type="search" id="search-input" placeholder="Search">
+<div class="entries-container parent"></div>
+
+
+<script>
+var startShowAll = true
+
+const jsonUrls = [
+  'https://lastsafezone.pages.dev/data/medkit.json'
+  // Add more URLs as needed
+];
+
+function getEntryHTML(entry) {
+  return `
+  <div class="child">
+    <h4>${entry.name}</h4>
+    <p>${entry.description}</p>
+    <ul>
+      <li>${entry.amount}</li>
+      <li>${entry.cost}</li>
+    </ul>
+  </div>
+  `;
+}
+</script>
