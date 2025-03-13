@@ -7,7 +7,7 @@
   },
   {
     "name": "IFAK",
-    "description": "Combat ready medkit used my frontline combatants.",
+    "description": "Combat ready medkit used by frontline combatants.",
     "amount": "Heal Amt: 35",
     "cost": "Cost: $10,000"
   },
