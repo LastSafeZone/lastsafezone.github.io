@@ -44,6 +44,20 @@
   },
   {
     "name": "Port Authority Guard",
+    "description": "Grunts taken from the local militas, tasked to guard the hallways of Dawrin's headquarters.",
+    "health": "HP: 800",
+    "protection": "Prot: 35",
+    "damage": "Dmg: 14, Acc: 90"
+  }
+  {
+    "name": "UN Defect/Rebel",
+    "description": "Once a member of a UN Taskforce under Carlos, they followed him into defection.",
+    "health": "HP: 1000",
+    "protection": "Prot: 50",
+    "damage": "Dmg: 18, Acc: 94"
+  },
+  {
+    "name": "Hazmat",
     "description": "Grunts taken from the local militas, ",
     "health": "HP: 800",
     "protection": "Prot: 35",
