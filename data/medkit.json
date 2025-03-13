@@ -1,0 +1,20 @@
+[
+  {
+    "name": "First Aid Kit",
+    "description": "A common medkit found in pharmacies.",
+    "amount": "Heal Amt: 15",
+    "cost": "Cost: $0"
+  },
+  {
+    "name": "IFAK",
+    "description": "Combat ready medkit used my frontline combatants.",
+    "amount": "Heal Amt: 35",
+    "cost": "Cost: $10,000"
+  },
+  {
+    "name": "AFAK",
+    "description": "An advanced version of the IFAK, costs more too.",
+    "amount": "Heal Amt: 60",
+    "cost": "Cost: $60,000"
+  }
+]
