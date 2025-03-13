@@ -4,76 +4,95 @@
     "description": "These guys just want to be useful, unfortunately, they aren't good at it.",
     "health": "HP: 250",
     "protection": "Prot: 15",
-    "damage": "Dmg: 10, Acc: 90"
+    "damage": "Dmg: 10, Acc: 90",
+    "others": ""
   },
   {
     "name": "Milita Guard",
     "description": "A fresh recruit who recently joined the other locals in defending their land.",
     "health": "HP: 400",
     "protection": "Prot: 45",
-    "damage": "Dmg: 15, Acc: 90"
+    "damage": "Dmg: 15, Acc: 90",
+    "others": ""
   },
   {
     "name": "Milita Grunt",
     "description": "Once a guard gains enough time on the battlefield, they are given a better rifle and a fancier helmet.",
     "health": "HP: 500",
     "protection": "Prot: 50",
-    "damage": "Dmg: 18, Acc: 90"
+    "damage": "Dmg: 18, Acc: 90",
+    "others": ""
   },
   {
     "name": "Milita Marksman",
-    "description": "Some locals showed excellence in marksmanship, gaining them this special role. [Has Greater Detection Range]",
+    "description": "Some locals showed excellence in marksmanship, gaining them this special role.",
     "health": "HP: 500",
     "protection": "Prot: 30",
-    "damage": "Dmg: 40, Acc: 98"
+    "damage": "Dmg: 40, Acc: 98",
+    "others": "[Has Greater Detection Range]"
   },
   {
     "name": "Riot Police",
     "description": "One of the men Darwin hired to maintain control over the city, roaming the streets in riot gear. [Has Defense Buff]",
     "health": "HP: 1000",
     "protection": "Prot: 50",
-    "damage": "Dmg: 10, Acc: 90" 
+    "damage": "Dmg: 10, Acc: 90" ,
+    "others": "[Has Defense Buff]"
   },
   {
     "name": "Riot Police Captain",
-    "description": "A high ranking minion of Darwin's. Commands a group of Riot Guards. [Has Defense Buff]",
+    "description": "A high ranking minion of Darwin's. Commands a group of Riot Guards.",
     "health": "HP: 350",
     "protection": "Prot: 100",
-    "damage": "Dmg: 12, Acc: 90"
+    "damage": "Dmg: 12, Acc: 90",
+    "others": "[Has Defense Buff]"
   },
   {
     "name": "Port Authority Guard",
     "description": "Grunts taken from the local militas, tasked to guard the hallways of Dawrin's headquarters.",
     "health": "HP: 800",
     "protection": "Prot: 35",
-    "damage": "Dmg: 14, Acc: 90"
+    "damage": "Dmg: 14, Acc: 90",
+    "others": ""
   },
   {
     "name": "UN Defect/Rebel",
     "description": "Once a member of a UN Taskforce under Carlos, they followed him into defection.",
     "health": "HP: 1000",
     "protection": "Prot: 50",
-    "damage": "Dmg: 18, Acc: 94"
+    "damage": "Dmg: 18, Acc: 94",
+    "others": ""
   },
   {
     "name": "Hazmat Facility Guard",
-    "description": "Elite units from the United Eastern Front trained specifically to endure the Facility's toxic environment. [Throws Grenades]",
+    "description": "Elite units from the United Eastern Front trained specifically to endure the Facility's toxic environment.",
     "health": "HP: 750",
     "protection": "Prot: 60",
-    "damage": "Dmg: 18, Acc: 94"
+    "damage": "Dmg: 18, Acc: 94",
+    "others": "[Throws Grenades]"
   },
   {
     "name": "Hazmat Facility Elite Guard",
-    "description": "A better equipped variant of the Facility Guard, these guys will throw gas grenades too. [Throws Grenades]",
+    "description": "A better equipped variant of the Facility Guard, these guys will throw gas grenades too.",
     "health": "HP: 1000",
     "protection": "Prot: 75",
-    "damage": "Dmg: 22, Acc: 97"
+    "damage": "Dmg: 22, Acc: 97",
+    "others": "[Throws Grenades]"
   },
   {
     "name": "Hank {BOSS}",
     "description": "Once was a mechanic back home, now the right-hand man of Ivanov, guarding the Fields.",
-    "health": "HP: 1000",
+    "health": "HP: 800",
     "protection": "Prot: 75",
-    "damage": "Dmg: 22, Acc: 97"
-  }
+    "damage": "Dmg: 24, Acc: 96",
+    "others": ""
+  },
+  {
+    "name": "Hank's Guard",
+    "description": "Hank's own bodyguards.",
+    "health": "HP: 500",
+    "protection": "Prot: 55",
+    "damage": "Dmg: 12 x10, Acc: 75",
+    "others": ""
+   }
 ]
