@@ -5,7 +5,7 @@
     "health": "HP: 250",
     "protection": "Prot: 15",
     "damage": "Dmg: 10, Acc: 90",
-    "others": ""
+    "others": "None"
   },
   {
     "name": "Milita Guard",
@@ -13,7 +13,7 @@
     "health": "HP: 400",
     "protection": "Prot: 45",
     "damage": "Dmg: 15, Acc: 90",
-    "others": ""
+    "others": "None"
   },
   {
     "name": "Milita Grunt",
@@ -21,7 +21,7 @@
     "health": "HP: 500",
     "protection": "Prot: 50",
     "damage": "Dmg: 18, Acc: 90",
-    "others": ""
+    "others": "None"
   },
   {
     "name": "Milita Marksman",
@@ -53,7 +53,7 @@
     "health": "HP: 800",
     "protection": "Prot: 35",
     "damage": "Dmg: 14, Acc: 90",
-    "others": ""
+    "others": "None"
   },
   {
     "name": "UN Defect/Rebel",
@@ -61,7 +61,7 @@
     "health": "HP: 1000",
     "protection": "Prot: 50",
     "damage": "Dmg: 18, Acc: 94",
-    "others": ""
+    "others": "None"
   },
   {
     "name": "Hazmat Facility Guard",
@@ -93,6 +93,54 @@
     "health": "HP: 500",
     "protection": "Prot: 55",
     "damage": "Dmg: 12 x10, Acc: 75",
-    "others": ""
-   }
+    "others": "None"
+   },
+  {
+    "name": "Darwin {BOSS}",
+    "description": "Once was an officer in the local Port, has took control of the City during the chaos.",
+    "health": "HP: 900",
+    "protection": "Prot: 70",
+    "damage": "Dmg: 36, Acc: 95",
+    "others": "[Has Defense Buff] (Can Drop 'Darwin's Quarters Key')"
+  },
+  {
+    "name": "Kurt {BOSS}",
+    "description": "Mercenary working for the United Eastern Front, his main job is to secure the Facility.",
+    "health": "HP: 1500",
+    "protection": "Prot: 85",
+    "damage": "Dmg: 28, Acc: 93",
+    "others": "(Can Drop 'Director's Office Key')"
+  },
+  {
+    "name": "Kurt's Guard",
+    "description": "Kurt's elite squad.",
+    "health": "HP: 650",
+    "protection": "Prot: 70",
+    "damage": "Dmg: 20, Acc: 93",
+    "others": "None"
+  },
+  {
+    "name": "Savage {BOSS}",
+    "description": "One of the three Gang Leaders, Savage roams around the Safe Zone with his deadly shotgun.",
+    "health": "HP: 1500",
+    "protection": "Prot: 35",
+    "damage": "Dmg: -13 x20, Acc: 75",
+    "others": "(Can Drop 'Gang Shack Key' and 'Gold Chain')"
+  },
+  {
+    "name": "Hunter {BOSS}",
+    "description": "One of the three Gang Leaders, Hunter specialises in stealth, stalking his victim.",
+    "health": "HP: 800",
+    "protection": "Prot: 80",
+    "damage": "Dmg: 60, Acc: 98",
+    "others": "(Can Drop 'Gang Shack Key' and 'Military Rangefinder')"
+  },
+  {
+    "name": "Knight {BOSS}",
+    "description": "The Leader of the Gang. Knight does not go by his real name, even the other two bosses don't know his identity.",
+    "health": "HP: 1500",
+    "protection": "Prot: 75",
+    "damage": "Dmg: 36, Acc: 95",
+    "others": "[Has Hybrid Attack Behaviour]"
+  }
 ]
