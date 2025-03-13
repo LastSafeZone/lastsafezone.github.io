@@ -1,5 +1,12 @@
 [
   {
+    "name": "Civilian Hostile",
+    "description": "These guys just want to be useful, unfortunately, they aren't good at it.",
+    "health": "HP: 250",
+    "protection": "Prot: 15",
+    "damage": "Dmg: 10, Acc: 90"
+  },
+  {
     "name": "Milita Guard",
     "description": "A fresh recruit who recently joined the other locals in defending their land.",
     "health": "HP: 400",
@@ -21,10 +28,25 @@
     "damage": "Dmg: 40, Acc: 98"
   },
   {
-    "name": "Civilian Hostile",
-    "description": "These guys just want to be useful, unfortunately, they aren't good at it.",
-    "health": "HP: 250",
-    "protection": "Prot: 15",
-    "damage": "Dmg: 10, Acc: 90"
+    "name": "Riot Police",
+    "description": "One of the men Darwin hired to maintain control over the city, roaming the streets in riot gear.",
+    "health": "HP: 1000",
+    "protection": "Prot: 50",
+    "damage": "Dmg: 10, Acc: 90" 
+  },
+  
+  {
+    "name": "Riot Police Captain",
+    "description": "A high ranking minion of Darwin's. Commands a group of Riot Guards.",
+    "health": "HP: 350",
+    "protection": "Prot: 100",
+    "damage": "Dmg: 12, Acc: 90"
+  },
+  {
+    "name": "Port Authority Guard",
+    "description": "Grunts taken from the local militas, ",
+    "health": "HP: 800",
+    "protection": "Prot: 35",
+    "damage": "Dmg: 14, Acc: 90"
   }
 ]
