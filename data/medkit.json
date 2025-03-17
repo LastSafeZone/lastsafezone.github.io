@@ -6,6 +6,12 @@
     "cost": "Cost: $0"
   },
   {
+    "name": "Car Medkit",
+    "description": "Issued to every car in the Safe Zone.",
+    "amount": "Heal Amt: 25",
+    "cost": "Cost: $7,000"
+  },
+  {
     "name": "IFAK",
     "description": "Combat ready medkit used by frontline combatants.",
     "amount": "Heal Amt: 35",
@@ -13,8 +19,14 @@
   },
   {
     "name": "AFAK",
-    "description": "An advanced version of the IFAK, costs more too.",
+    "description": "An advanced version of the IFAK, it costs more too.",
     "amount": "Heal Amt: 60",
     "cost": "Cost: $60,000"
+  },
+  {
+    "name": "Grizzly Medkit",
+    "description": "A premium medkit containing all sorts of medical supplies.",
+    "amount": "Heal Amt: 80",
+    "cost": "Cost: $80,000"
   }
 ]
