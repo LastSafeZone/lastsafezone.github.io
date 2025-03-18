@@ -1,1 +1,107 @@
-
+[
+  {
+    "name": "Paper",
+    "description": "",
+    "rarity": "Rarity: Common",
+    "value": "Value: $10",
+    "containers": "Found in: Drawer"
+  },
+  {
+    "name": "Srewdriver",
+    "description": "",
+    "rarity": "Rarity: Common",
+    "value": "Value: $50",
+    "containers": "Found in: Toolbox"
+  },
+  {
+    "name": "Old Coin",
+    "description": "",
+    "rarity": "Rarity: Common",
+    "value": "Value: $200",
+    "containers": "Found in: Drawer, Safe"
+  },
+  {
+    "name": "Documents",
+    "description": "",
+    "rarity": "Rarity: Common",
+    "value": "Value: $1000",
+    "containers": "Found in: Drawer"
+  },
+  {
+    "name": "VHS Tape",
+    "description": "",
+    "rarity": "Rarity: Rare",
+    "value": "Value: $10",
+    "containers": "Found in: Drawer"
+  },
+  {
+    "name": "Signal Jammer",
+    "description": "",
+    "rarity": "Rarity: Rare",
+    "value": "Value: $3000",
+    "containers": "Found in: Toolbox, Premium Toolbox"
+  },
+  {
+    "name": "Electronic Drill",
+    "description": "",
+    "rarity": "Rarity: Rare",
+    "value": "Value: $5000",
+    "containers": "Found in: Toolbox, Premium Toolbox"
+  },
+  {
+    "name": "Gold Chain",
+    "description": "",
+    "rarity": "Rarity: Valuable",
+    "value": "Value: $15000",
+    "containers": "Found in: Safe, Electronic Safe, Vault Safe"
+  },
+  {
+    "name": "Laser Leveller",
+    "description": "",
+    "rarity": "Rarity: Valuable",
+    "value": "Value: $20000",
+    "containers": "Found in: Toolbox, Premium Toolbox"
+  },
+  {
+    "name": "Gold Cube",
+    "description": "",
+    "rarity": "Rarity: Valuable",
+    "value": "Value: $20000",
+    "containers": "Found in: Safe, Electronic Safe, Vault Safe"
+  },
+  {
+    "name": "Gold Watch",
+    "description": "",
+    "rarity": "Rarity: Valuable",
+    "value": "Value: $25000",
+    "containers": "Found in: Safe, Electronic Safe, Vault Safe"
+  },
+  {
+    "name": "Antique Vase",
+    "description": "",
+    "rarity": "Rarity: Coveted",
+    "value": "Value: $50000",
+    "containers": "Found in: Safe, Electronic Safe, Vault Safe"
+  },
+  {
+    "name": "Military Rangefinder",
+    "description": "",
+    "rarity": "Rarity: Coveted",
+    "value": "Value: $60000",
+    "containers": "Found in: Toolbox, Premium Toolbox, Safe, Vault Safe"
+  },
+  {
+    "name": "Golden Statue",
+    "description": "",
+    "rarity": "Rarity: Exquisite",
+    "value": "Value: $100000",
+    "containers": "Found in: Safe, Electronic Safe, Vault Safe"
+  },
+  {
+    "name": "Classified Document",
+    "description": "",
+    "rarity": "Rarity: Exquisite",
+    "value": "Value: $500000",
+    "containers": "Found in: Drawer, Electronic Safe, Vault Safe"
+  }
+]
