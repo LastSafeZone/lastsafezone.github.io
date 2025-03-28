@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<script>
+var startShowAll = true
+
+const jsonUrls = [
+  'https://lastsafezone.pages.dev/data/ai.json'
+  // Add more URLs as needed
+];
+
+function getEntryHTML(entry) {
+  return `
+  <div class="child">
+    <h4>${entry.name}</h4>
+    <p>${entry.description}</p>
+    <ul>
+      <li>${entry.health}</li>
+      <li>${entry.protection}</li>
+      <li>${entry.damage}</li>
+      <li>${entry.others}</li>
+    </ul>
+  </div>
+  `;
+}
+</script>
