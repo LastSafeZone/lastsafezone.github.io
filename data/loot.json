@@ -1,105 +1,105 @@
 [
   {
     "name": "Paper",
-    "description": "",
+    "description": "A regular sheet of paper, probably not worth much.",
     "rarity": "Rarity: Common",
     "value": "Value: $10",
     "containers": "Found in: Drawer"
   },
   {
     "name": "Srewdriver",
-    "description": "",
+    "description": "A sturdy and slightly rsuted screwdriver, can still be used in msot situations.",
     "rarity": "Rarity: Common",
     "value": "Value: $50",
     "containers": "Found in: Toolbox"
   },
   {
     "name": "Old Coin",
-    "description": "",
+    "description": "The first version of the Safe Zone coin, unfortunately for you, nobody uses it anymore.",
     "rarity": "Rarity: Common",
     "value": "Value: $200",
     "containers": "Found in: Drawer, Safe"
   },
   {
     "name": "Documents",
-    "description": "",
+    "description": "A folder containing various documents, if only the information it contains were valuable...",
     "rarity": "Rarity: Common",
     "value": "Value: $1000",
     "containers": "Found in: Drawer"
   },
   {
     "name": "VHS Tape",
-    "description": "",
+    "description": "An old VHS tape, some collectors might want to buy it.",
     "rarity": "Rarity: Rare",
     "value": "Value: $10",
     "containers": "Found in: Drawer"
   },
   {
     "name": "Signal Jammer",
-    "description": "",
+    "description": "A rare piece of equipment that is used to jam signals.",
     "rarity": "Rarity: Rare",
     "value": "Value: $3000",
     "containers": "Found in: Toolbox, Premium Toolbox"
   },
   {
     "name": "Electronic Drill",
-    "description": "",
+    "description": "A quick and powerful drill, however only useful outside the Safe Zone.",
     "rarity": "Rarity: Rare",
     "value": "Value: $5000",
     "containers": "Found in: Toolbox, Premium Toolbox"
   },
   {
     "name": "Gold Chain",
-    "description": "",
+    "description": "A gold necklace to show off one's wealth.",
     "rarity": "Rarity: Valuable",
     "value": "Value: $15000",
     "containers": "Found in: Safe, Electronic Safe, Vault Safe"
   },
   {
     "name": "Laser Leveller",
-    "description": "",
+    "description": "Expensive equipment used to level surfaces. Would definitely sell for good money.",
     "rarity": "Rarity: Valuable",
     "value": "Value: $20000",
     "containers": "Found in: Toolbox, Premium Toolbox"
   },
   {
     "name": "Gold Cube",
-    "description": "",
+    "description": "A cube made from pure gold, mostly a collector's item.",
     "rarity": "Rarity: Valuable",
     "value": "Value: $20000",
     "containers": "Found in: Safe, Electronic Safe, Vault Safe"
   },
   {
     "name": "Gold Watch",
-    "description": "",
+    "description": "A gold plated watch from a well-known brand and a high value.",
     "rarity": "Rarity: Valuable",
     "value": "Value: $25000",
     "containers": "Found in: Safe, Electronic Safe, Vault Safe"
   },
   {
     "name": "Antique Vase",
-    "description": "",
+    "description": "A unique piece of history, the intricate markings on the sides make this vase a pricey one.",
     "rarity": "Rarity: Coveted",
     "value": "Value: $50000",
     "containers": "Found in: Safe, Electronic Safe, Vault Safe"
   },
   {
     "name": "Military Rangefinder",
-    "description": "",
+    "description": "Used to identify ranges. This handly tool is carried by many snipers around the conflict zones.",
     "rarity": "Rarity: Coveted",
     "value": "Value: $60000",
     "containers": "Found in: Toolbox, Premium Toolbox, Safe, Vault Safe"
   },
   {
     "name": "Golden Statue",
-    "description": "",
+    "description": "A golden statue that was probably taken from a locl museum.",
     "rarity": "Rarity: Exquisite",
     "value": "Value: $100000",
     "containers": "Found in: Safe, Electronic Safe, Vault Safe"
   },
   {
     "name": "Classified Document",
-    "description": "",
+    "description": "A top secret disk containing ????? regarding the true ?????? of the ???.",
     "rarity": "Rarity: Exquisite",
     "value": "Value: $500000",
     "containers": "Found in: Drawer, Electronic Safe, Vault Safe"
