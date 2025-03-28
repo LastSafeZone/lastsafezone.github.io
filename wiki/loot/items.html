@@ -2,11 +2,39 @@
 layout: default
 ---
 
+<a href="/wiki/loot">Back</a>
+
+<style>
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 8px;
+  }
+
+  .child {
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 4px;
+  }
+</style>
+
+<h1>Loot Items</h1>
+<p>Here contains a list of all lootable items, some are worth way more than others.</p>
+
+<hr>
+
+<h2>Lootable Items Catalogue</h2>
+
+<input type="search" id="search-input" placeholder="Search">
+<div class="entries-container parent"></div>
+
 <script>
 var startShowAll = true
 
 const jsonUrls = [
-  'https://lastsafezone.pages.dev/data/ai.json'
+  'https://lastsafezone.pages.dev/data/loot.json'
   // Add more URLs as needed
 ];
 
